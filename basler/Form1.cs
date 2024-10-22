@@ -6,5 +6,10 @@ namespace basler
         {
             InitializeComponent();
         }
+
+        private void VaihdaBT_Click(object sender, EventArgs e)
+        {
+            JuttuLB.Text = "Privyet Egert";
+        }
     }
 }
